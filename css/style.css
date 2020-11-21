@@ -25,17 +25,61 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     list-style: none;
-    margin-right: 2rem;
 }
 
 .header__nav--ul a{
-    margin: 0.5rem;
+    margin: 1.3rem 1.2rem;
     text-decoration: none;
     cursor: pointer;
     color: #000;
 }
 
+.header__nav--ul .menu__icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.header__nav--ul a img{
+    margin-right: 0;
+    margin-left: 0.5rem;
+    border-radius: 50%;
+}
+
+/* =============================
+============================= */
+
+main{
+    margin-top: 15vh;
+    text-align: center;
+}
+.main__section--logo img{
+    height: 14vh;
+    margin-bottom: 2.3rem;
+}
+
+.main__section--search input{
+    outline: none;
+}
+.main__section--botones{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__section--botones button{
+    padding: 0.7rem;
+    margin: 0.3rem;
+    cursor: pointer;
+    background-color: lightgrey;
+    border: none;
+    outline: none;
+}
 
 
