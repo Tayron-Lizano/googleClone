@@ -55,7 +55,7 @@ html{
 ============================= */
 
 main{
-    margin-top: 15vh;
+    margin-top: 14vh;
     text-align: center;
 }
 .main__section--logo img{
@@ -113,15 +113,55 @@ main{
 }
 
 .main__section--botones button{
-    padding: 1rem;
+    padding: 1.2rem;
     margin: 0.5rem;
     cursor: pointer;
     border-radius: 4px;
-    background-color: #f8f9fa;
+    background-color: #f2f2f2;
     border: none;
     outline: none;
 }
 
 .main__section--botones button:hover{
     border: 1.3px solid #dfe1e5;
+    box-shadow: 0  0 1px 0 gray;
 }
+/* =======================================
+======================================= */
+
+footer{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer__div{
+    display: flex;
+    height: 6vh;
+    align-items: center;
+    border-top: 1px solid #dadce0;
+    background-color: #f2f2f2;
+    padding: 0 1.3rem;
+
+}
+.footer__div ul{
+    width: 50%;
+    font-size: 1.5rem;
+    display:flex;
+    list-style: none;
+}
+
+.footer__div ul li a{
+    text-decoration: none;
+    padding: 1rem;
+    color: #6f6f6f;
+    margin-right: 0.5rem;
+
+}
+
+.footer__div .ul__right{
+    justify-content: flex-end;
+}   
+
+
