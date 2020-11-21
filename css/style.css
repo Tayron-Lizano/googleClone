@@ -60,11 +60,50 @@ main{
 }
 .main__section--logo img{
     height: 14vh;
-    margin-bottom: 2.3rem;
+}
+
+.main__section--search .contenedor__input{
+    margin: 3rem auto;
+    width: 42%; 
+    height: 4.5rem;
+    border: 1px solid #dfe1e5;
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__section--search .contenedor__input:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+
+.main__section--search .contenedor__input .search__icon{
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.45rem;
+    height: 1.45rem;
+    margin-right:0.7rem;
+    cursor: pointer;
+}
+
+.main__section--search .contenedor__input .micro__icon{
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2.4rem;
+    height: 2.4rem
 }
 
 .main__section--search input{
     outline: none;
+    border: none;
+    margin: auto 0.5rem;
+    width: 85%;
+    height: 4rem;
+    font-size: 1.6rem;
 }
 .main__section--botones{
     height: 10vh;
@@ -74,12 +113,15 @@ main{
 }
 
 .main__section--botones button{
-    padding: 0.7rem;
-    margin: 0.3rem;
+    padding: 1rem;
+    margin: 0.5rem;
     cursor: pointer;
-    background-color: lightgrey;
+    border-radius: 4px;
+    background-color: #f8f9fa;
     border: none;
     outline: none;
 }
 
-
+.main__section--botones button:hover{
+    border: 1.3px solid #dfe1e5;
+}
